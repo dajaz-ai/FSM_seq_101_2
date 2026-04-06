@@ -23,13 +23,11 @@ output reg [1:0] state;
 output clk_led;// clock led
 
 //1hz 3 sec clock
-
 clk_div  div(
 .clk_out(clk),
 .clk_in(clk_50),	
 .clk_led(clk_led)
 );
-// this convert 50Mhz to 1hz
 
 
 // state assignment
