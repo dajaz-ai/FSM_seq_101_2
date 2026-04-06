@@ -13,7 +13,6 @@ Regalado, Cid Lawrenc C.
 Date:
 March 31 2026
 ----------------------------------*/
-<<<<<<< Updated upstream
 module seq_101(out,state,in,clk,rst_n);
 // ports
 input            in;
@@ -22,25 +21,6 @@ input            rst_n;
 output reg       out;
 output reg [1:0] state;
 
-=======
-module seq_101(out,state,clk_led,in,clk_50,rst_n);
-// ports
-input            in;
-input            clk_50;//50mhz clock
-input            rst_n;
-output reg       out;
-output reg [1:0] state;
-output clk_led;// clock led
-
-//1hz 3 sec clock
-
-clk_div  div(
-.clk_out(clk),
-.clk_in(clk_50),	
-.clk_led(clk_led)
-);
-// this convert 50Mhz to 1hz
->>>>>>> Stashed changes
 
 
 // state assignment
@@ -59,11 +39,7 @@ always @(in,pre)begin
    S2: nxt = in? S3:S0;
    S3: nxt = in? S1:S0;
    default: nxt = S0;
-<<<<<<< Updated upstream
 	endcase
-=======
-	endcase//end of case
->>>>>>> Stashed changes
   end
  
  
@@ -96,10 +72,6 @@ always @(pre)begin
                out = 0;
                state = S0;
           end
-<<<<<<< Updated upstream
 	  endcase
-=======
-	  endcase//end case
->>>>>>> Stashed changes
 	end 
 endmodule
