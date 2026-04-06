@@ -21,8 +21,6 @@ input            rst_n;
 output reg       out;
 output reg [1:0] state;
 
-
-
 // state assignment
 parameter [1:0] S0 = 2'b00;
 parameter [1:0] S1 = 2'b01;
