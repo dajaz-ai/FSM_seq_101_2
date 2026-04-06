@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Logic_2_lab/Verilog/L12_Counters/Clock_DIvider
+vclk_div
+!s110 1775198041
+!i10b 1
+!s100 Ef=jilkM7bAB9XSz?h=Q71
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IelT4e1fPDGXd]eAE5^AEM1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Logic_2_lab/Quartus/FSM_seq_101
+w1775181061
+8E:/Logic_2_lab/Verilog/L12_Counters/Clock_DIvider/clk_div.v
+FE:/Logic_2_lab/Verilog/L12_Counters/Clock_DIvider/clk_div.v
+!i122 3
+L0 17 30
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1775198040.000000
+!s107 E:/Logic_2_lab/Verilog/L12_Counters/Clock_DIvider/clk_div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Logic_2_lab/Verilog/L12_Counters/Clock_DIvider/clk_div.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtestbench
+!s110 1775198040
+!i10b 1
+!s100 YaV`X[13:<nJ2dmiSdO@U2
+R0
+I`U=om9[P=L94AkPZfS_CL1
+R1
+R2
+w1775198038
+8E:/Logic_2_lab/Quartus/FSM_seq_101/testbench.v
+FE:/Logic_2_lab/Quartus/FSM_seq_101/testbench.v
+!i122 2
+L0 2 31
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Logic_2_lab/Quartus/FSM_seq_101/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Logic_2_lab/Quartus/FSM_seq_101/testbench.v|
+!i113 1
+R5
+R6
