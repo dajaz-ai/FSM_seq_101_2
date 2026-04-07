@@ -3,8 +3,9 @@
 ==================================================
 
 Description:
-  This module takes 50MHz clock input and 
-  divide it to produce 1Hz clock output.
+ This module takes a high-frequency input clock ((clk_in) and divides it down to a 
+ lower frequency. By default, it divides a 50MHz input clock down to 1s clock period 
+ toggling the outputs every 25,000,000 ticks.
 
 Design Engineer:
   Edward Paul M. Aragon
