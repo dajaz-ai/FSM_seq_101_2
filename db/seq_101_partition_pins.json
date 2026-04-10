@@ -4,6 +4,14 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "clk_led",
+					"strict" : false
+				},
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
 					"name" : "state[0]",
 					"strict" : false
 				},
@@ -12,7 +20,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk_led",
+					"name" : "clk_in",
 					"strict" : false
 				},
 				{
@@ -21,10 +29,6 @@
 				},
 				{
 					"name" : "rst_n",
-					"strict" : false
-				},
-				{
-					"name" : "clk_50",
 					"strict" : false
 				}
 			]

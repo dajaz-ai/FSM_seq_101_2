@@ -1,0 +1,18 @@
+E:/Logic_2_lab/Quartus/FSM_seq_101/testbench.v {1 {vlog -work work -stats=none E:/Logic_2_lab/Quartus/FSM_seq_101/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} E:/Logic_2_lab/Quartus/FSM_seq_101/seq_101.v {1 {vlog -work work -stats=none E:/Logic_2_lab/Quartus/FSM_seq_101/seq_101.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} E:/Logic_2_lab/Verilog/L12_Counters/Clock_DIvider/clk_div.v {1 {vlog -work work -stats=none E:/Logic_2_lab/Verilog/L12_Counters/Clock_DIvider/clk_div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clk_div
+
+Top level modules:
+	clk_div
+
+} {} {}}

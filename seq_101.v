@@ -8,33 +8,26 @@ arrives LSB-first.
 
 Design Engineer:
 
-Regalado,Cid Lawrenc C.
+Regalado, Cid Lawrenc C.
 
 Date:
 March 31 2026
 ----------------------------------*/
-module seq_101(out,state,clk_led,in,clk_50,rst_n);
+module seq_101(out,state,in,clk_in,rst_n);
 // ports
 input            in;
-input            clk_50;//50mhz clock
+input            clk_in;//50mhz clock
 input            rst_n;
 output reg       out;
 output reg [1:0] state;
-output clk_led;// clock led
-
-//1hz 3 sec clock
-clk_div  div(
-.clk_out(clk),
-.clk_in(clk_50),	
-.clk_led(clk_led)
-);
 
 
 // state assignment
-parameter [1:0] S0 = 2'b00;
-parameter [1:0] S1 = 2'b01;
-parameter [1:0] S2 = 2'b10;
-parameter [1:0] S3 = 2'b11;
+localparam [1:0] S0 = 2'b00;
+localparam [1:0] S1 = 2'b01;
+localparam [1:0] S2 = 2'b10;
+localparam [1:0] S3 = 2'b11;
+
 reg [1:0] nxt;//next state
 reg [1:0] pre;//present state
 
@@ -51,7 +44,7 @@ always @(in,pre)begin
  
  
 // sequential block
- always @(posedge clk,negedge rst_n)begin
+ always @(posedge clk_in,negedge rst_n)begin
    if(!rst_n) pre <= S0;
    else       pre <= nxt;
  end
